@@ -1,10 +1,4 @@
-import 'package:authentication/Authentication/Google_Auth/Auth_gate.dart';
-import 'package:authentication/Authentication/Google_Auth/GoogleSignuppage.dart';
-import 'package:authentication/Authentication/Google_Auth/Googlelogin.dart';
-import 'package:authentication/Authentication/Google_Auth/Homepage.dart';
-import 'package:authentication/Authentication/Google_Auth/Profilepage.dart';
-import 'package:authentication/Authentication/Phone_auth/OTP.dart';
-import 'package:authentication/Authentication/Phone_auth/phone_login.dart';
+import 'package:authentication/Media_Uploading.dart';
 import 'package:authentication/firebase_options.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -47,7 +41,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: Crudauth(),
+        home: MediaUploading(),
       ),
     );
   }
